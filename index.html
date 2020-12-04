@@ -8,9 +8,14 @@
     <title>Vue Hello</title>
   </head>
   <body>
-    <div id="root">
+    <div id="root" style="text-align: center;">
       <input type="text" name="" value="" v-model="message">
+
       <h1>{{message}}</h1>
+
+      <h3>{{imageMessage}}</h3>
+
+      <img :src="image" alt="" style="max-width: 100%;">
     </div>
   <script src="js/script.js" charset="utf-8"></script>
   </body>
